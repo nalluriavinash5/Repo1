@@ -1,0 +1,9 @@
+---
+- 
+  name: Install the mysql
+  host: 0.0.0.0
+  tasks:
+    - name: mysql
+      service: 
+         name: httpd 
+         state: present
